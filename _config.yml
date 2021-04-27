@@ -15,5 +15,6 @@ twitter_url: "https://twitter.com/NetHack_LE"
 discord_url: "https://discord.gg/bxqcRMpq"
 github_url: "https://github.com/facebookresearch/nle"
 AIcrowd_url: ""
+
 github:
-  is_github_project: false
+  is_project_page: false 
