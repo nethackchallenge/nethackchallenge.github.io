@@ -1,2 +1,17 @@
+title: NetHack Challenge
+description: >- 
+  Neurips 2021 NetHack Challenge website
+baseurl: ""
+url: "" 
+logo: https://raw.githubusercontent.com/facebookresearch/nle/master/dat/nle/logo.png
+
+# Build settings
 theme: jekyll-theme-minimal
-title: Nethack Challenge
+plugins:
+  - jekyll-feed
+
+show_downloads: true
+twitter_url: "https://twitter.com/NetHack_LE"
+discord_url: "https://discord.gg/bxqcRMpq"
+github_url: "https://github.com/facebookresearch/nle"
+AIcrowd_url: ""
