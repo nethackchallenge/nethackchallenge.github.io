@@ -1,6 +1,6 @@
 title: NetHack Challenge
 description: >- 
-  Neurips 2021 NetHack Challenge website
+  NeurIPS 2021 NetHack Challenge website
 baseurl: ""
 url: "" 
 logo: https://raw.githubusercontent.com/facebookresearch/nle/master/dat/nle/logo.png
