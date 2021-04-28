@@ -4,7 +4,7 @@ layout: default
 
 ## Welcome to Nethack 2021 NeurIPS Challenge
 
-### Why
+### Why?
 
 NetHack is one of the oldest and arguably most impactful videogames in history,
 as well as being one of the hardest roguelikes currently being played by humans.
@@ -25,3 +25,7 @@ README](./README.nh), at [nethack.org](https://nethack.org/), and on the
 [NetHack wiki](https://nethackwiki.com).
 
 ![Example of an agent running on NLE](https://github.com/facebookresearch/nle/raw/master/dat/nle/example_run.gif)
+
+### How to participate?
+
+The competition rules and submission instructions will be published soon. Stay tuned! In the meantime, you can follow us on [Twitter](https://twitter.com/NetHack_LE), join our [Discord server](https://discord.com/invite/bxqcRMpq) or get acquainted with the [NetHack Learning Environment](https://github.com/facebookresearch/nle).
