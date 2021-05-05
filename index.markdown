@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Welcome to Nethack 2021 NeurIPS Challenge
+## Welcome to NetHack 2021 NeurIPS Challenge
 
 ### Why?
 
@@ -13,6 +13,7 @@ extremely challenging environment for current state-of-the-art RL agents, while
 being much cheaper to run compared to other challenging testbeds. Through NLE,
 we wish to establish NetHack as one of the next challenges for research in
 decision making and machine learning.
+Check out [NetHack Wiki](https://nethackwiki.com/wiki/Main_Page) and [nethack.org](http://nethack.org/) to learn more about NetHack.
 
 
 ### What is NetHack Learning Environment?
