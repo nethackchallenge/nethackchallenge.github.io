@@ -27,3 +27,10 @@ You can read more about NLE in the [NeurIPS 2020 paper](https://arxiv.org/abs/20
 ### How to participate?
 
 The competition rules and submission instructions will be published soon. Stay tuned! In the meantime, you can follow us on [Twitter](https://twitter.com/NetHack_LE), join our [Discord server](https://discord.com/invite/bxqcRMpq) or get acquainted with the [NetHack Learning Environment](https://github.com/facebookresearch/nle).
+
+### Key Dates
+
+| ------------- |:-------------:|
+| **June  1st** | Competition starts. The participants can submit their agents. |
+| **October 15th**| Submission closes. Testing phase starts. |
+| **December 13th/14th** | NeurIPS 2021 Competition Track. The winners are announced. 
