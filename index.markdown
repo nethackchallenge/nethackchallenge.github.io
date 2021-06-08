@@ -31,6 +31,6 @@ The competition rules and submission instructions are published on [AIcrowd](htt
 ### Key Dates
 
 | ------------- |:-------------:|
-| **June  1st** | Competition starts. The participants can submit their agents. |
+| **June  9th** | Competition starts. The participants can submit their agents. |
 | **October 15th**| Submission closes. Testing phase starts. |
 | **December 13th/14th** | NeurIPS 2021 Competition Track. The winners are announced. 
