@@ -40,7 +40,7 @@ There will be three competition tracks:
 2. **Best agent not using a neural network** - awarded to the best-performing agent not using a neural network or significantly similar modeling technique.
 3. **Best agent from an academic/independent team** - awarded to the best-performing agent produced by a team predominantly led by non-industry-affiliated researchers.
 
-The competition runs from early June through October 15, and the winners will be announced at NeurIPS in December. For more information, read our blog [here](#). You can also follow us on [Twitter](https://twitter.com/NetHack_LE), join our [Discord server](https://discord.gg/zkFWQmSWBA), or get acquainted with the [NetHack Learning Environment](https://github.com/facebookresearch/nle).
+The competition runs from early June through October 15, and the winners will be announced at NeurIPS in December. <!-- For more information, read our blog [here](#). -->You can also follow us on [Twitter](https://twitter.com/NetHack_LE), join our [Discord server](https://discord.gg/zkFWQmSWBA), or get acquainted with the [NetHack Learning Environment](https://github.com/facebookresearch/nle).
 
 ### Key Dates
 
