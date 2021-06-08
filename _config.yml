@@ -14,7 +14,7 @@ show_downloads: true
 twitter_url: "https://twitter.com/NetHack_LE"
 discord_url: "https://discord.gg/zkFWQmSWBA"
 github_url: "https://github.com/facebookresearch/nle"
-AIcrowd_url: ""
+AIcrowd_url: "https://www.aicrowd.com/challenges/neurips-2021-nethack-challenge"
 
 github:
   is_project_page: false 

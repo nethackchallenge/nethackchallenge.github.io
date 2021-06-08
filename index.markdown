@@ -4,7 +4,7 @@ layout: default
 
 ## Welcome to NetHack 2021 NeurIPS Challenge
 
-The NetHack Challenge is based on the NetHack Learning Environment (NLE), where teams will compete to build the best agents to play the game of NetHack.  
+The NetHack Challenge is based on the NetHack Learning Environment (NLE), where teams will compete to build the best agents to play the game of NetHack. **The competition has started. [Participate!](https://www.aicrowd.com/challenges/neurips-2021-nethack-challenge)**
 
 ### Why?
 
@@ -26,7 +26,7 @@ You can read more about NLE in the [NeurIPS 2020 paper](https://arxiv.org/abs/20
 
 ### How to participate?
 
-The competition rules and submission instructions will be published soon. Stay tuned! In the meantime, you can follow us on [Twitter](https://twitter.com/NetHack_LE), join our [Discord server](https://discord.gg/zkFWQmSWBA) or get acquainted with the [NetHack Learning Environment](https://github.com/facebookresearch/nle).
+The competition rules and submission instructions are published on [AIcrowd](https://www.aicrowd.com/challenges/neurips-2021-nethack-challenge). You can also follow us on [Twitter](https://twitter.com/NetHack_LE), join our [Discord server](https://discord.gg/zkFWQmSWBA) or get acquainted with the [NetHack Learning Environment](https://github.com/facebookresearch/nle).
 
 ### Key Dates
 
