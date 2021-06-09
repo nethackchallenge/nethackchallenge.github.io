@@ -4,7 +4,7 @@ layout: default
 
 ## Welcome to the NetHack Challenge
 
-The NetHack Challenge is a competition at NeurIPS 2021, that is based on the NetHack Learning Environment (NLE), in which teams will compete to build the best agents to play the game of NetHack.
+The NetHack Challenge is a competition at NeurIPS 2021 in which teams will compete to build the best agents to play the game of NetHack, using the NetHack Learning Environment (NLE).
 
 * **[Join the Competition!](https://www.aicrowd.com/challenges/neurips-2021-nethack-challenge)**
 * **[Join the Discord!](https://discord.gg/zkFWQmSWBA)**
@@ -14,7 +14,7 @@ The NetHack Challenge is a competition at NeurIPS 2021, that is based on the Net
 
 NetHack is a ASCII-rendered single-player dungeon crawl game that is one of the oldest and most difficult computer games in history.  NetHack is procedurally-generated, with hundreds of different entities and complex environment dynamics, presenting an extremely challenging environment for both current state-of-the-art RL agents and humans, while crucially being lightning-fast to simulate.
 
-Check out [NetHack Wiki](https://nethackwiki.com/wiki/Main_Page) and [nethack.org](http://nethack.org/) to learn more about NetHack, or head over to [Challenge Page](https://www.aicrowd.com/challenges/neurips-2021-nethack-challenge) for an intro.
+Check out the [NetHack Wiki](https://nethackwiki.com/wiki/Main_Page) and [nethack.org](http://nethack.org/) to learn more about NetHack, or head over to the [Challenge Page](https://www.aicrowd.com/challenges/neurips-2021-nethack-challenge) for an intro.
 
 
 ### What is the NetHack Learning Environment?
