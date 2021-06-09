@@ -6,8 +6,8 @@ layout: default
 
 The NetHack Challenge is a competition at NeurIPS 2021 in which teams will compete to build the best agents to play the game of NetHack, using the NetHack Learning Environment (NLE).
 
-* **[Join the Competition!](https://www.aicrowd.com/challenges/neurips-2021-nethack-challenge)**
-* **[Join the Discord!](https://discord.gg/zkFWQmSWBA)**
+[Join Competition](https://www.aicrowd.com/challenges/neurips-2021-nethack-challenge/){: .btn .btn-success .btn-lg }
+[Join Discord](https://discord.gg/zkFWQmSWBA/){: .btn .btn-primary .btn-lg }
 
 
 ### What is NetHack?
@@ -47,3 +47,8 @@ The competition runs from early June through October 15, and the winners will be
 | **June  9th** | Competition starts. The participants can submit their agents. |
 | **October 15th**| Submission closes. Testing phase starts. |
 | **December 13th/14th** | NeurIPS 2021 Competition Track. The winners are announced.
+
+## Partners
+
+![FacebookAI Logo](/assets/images/facebookAI_logo.png)
+![AIcrowd Logo](https://raw.githubusercontent.com/AIcrowd/AIcrowd/master/app/assets/images/misc/aicrowd-horizontal.png)
