@@ -58,5 +58,4 @@ The competition runs from early June through October 15, and the winners will be
 
 ## Partners
 
-![FacebookAI Logo](/assets/images/facebookAI_logo.png)
 ![AIcrowd Logo](https://raw.githubusercontent.com/AIcrowd/AIcrowd/master/app/assets/images/misc/aicrowd-horizontal.png)
