@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: 2021
 ---
 
 ## Welcome to the NetHack Challenge
