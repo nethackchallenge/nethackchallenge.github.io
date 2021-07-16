@@ -2,7 +2,9 @@
 layout: 2021
 ---
 
-## Welcome to the NetHack Challenge
+<!-- ![Example of an agent running on NLE](https://github.com/facebookresearch/nle/raw/master/dat/nle/example_run.gif) -->
+
+## Welcome to NetHack 2021 NeurIPS Challenge
 
 The NetHack Challenge is a competition at NeurIPS 2021 in which teams will compete to build the best agents to play the game of NetHack, using the NetHack Learning Environment (NLE).
 
@@ -28,8 +30,6 @@ Check out the [NetHack Wiki](https://nethackwiki.com/wiki/Main_Page) and [nethac
 The NetHack Learning Environment (NLE) is a Reinforcement Learning environment presented at [NeurIPS 2020](https://neurips.cc/Conferences/2020).
 NLE is based on [NetHack 3.6.6](https://github.com/NetHack/NetHack/tree/NetHack-3.6.6_PostRelease) and designed to provide a standard RL interface to the game, and comes with tasks that function as a first step to evaluate agents on this new environment.
 You can read more about NLE in the [NeurIPS 2020 paper](https://arxiv.org/abs/2006.13760).
-
-![Example of an agent running on NLE](https://github.com/facebookresearch/nle/raw/master/dat/nle/example_run.gif)
 
 
 ### About the NetHack Challenge At NeurIPS 20201

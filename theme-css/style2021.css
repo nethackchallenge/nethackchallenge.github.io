@@ -1,4 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hp-body {
+  background: #103B42;
+}
+
+.hp-body h1, .hp-body h2, .hp-body h3, .hp-body h4, .hp-body h5, .hp-body h6, .hp-body p {
+  color: #E6F5F0;
+}
+
 header {
-  border: 1px dashed green;
-  padding: 4px;
+  background: #fff;
+  float: none;
+  padding-bottom: 112px;
+  position: relative;
+  width: 100%;
+}
+
+.header-wrapper {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.header-alignment {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.header-logo {
+  margin: 24px 0;
+  width: 270px;
+}
+
+.header-description {
+  display: block;
+  margin: 0;
+  padding-left: 86px;
+  right: 0;
+  width: 500px;
+}
+
+.body-wrapper {
+  margin: 8px auto;
+  padding: 50px;
+}
+
+.hp-video-offset-section {
+  max-width: 500px;
 }
