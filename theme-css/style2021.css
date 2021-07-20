@@ -49,9 +49,10 @@ header {
 }
 
 .header-description .sub-header-description {
-  /* color: #103B42; */
-  color: #267CB9;
+  /* color: #267CB9; */
+  color: #103B42;
   font-size: 20px;
+  text-transform: uppercase;
 }
 
 .body-wrapper {
@@ -69,10 +70,12 @@ header {
 
 .social-section {
   background: #232323;
+  color: #FFF;
   min-width: 170px;
   overflow: hidden;
-  padding: 50px 50px 125px;
+  padding: 32px 32px 88px;
   position: absolute;
+  text-transform: uppercase;
   top: 50px;
 }
 
