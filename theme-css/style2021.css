@@ -14,7 +14,8 @@ body {
 header {
   background: #fff;
   float: none;
-  padding-bottom: 112px;
+  /* padding-bottom: 112px; */
+  padding-bottom: 176px;
   position: relative;
   width: 100%;
 }
@@ -37,19 +38,49 @@ header {
   width: 270px;
 }
 
-.header-description {
+.header-wrapper .header-description {
+  color: #1C2B33;
   display: block;
+  font-size: 26px;
   margin: 0;
   padding-left: 86px;
   right: 0;
   width: 500px;
 }
 
-.body-wrapper {
-  margin: 8px auto;
-  padding: 50px;
+.header-description .sub-header-description {
+  /* color: #103B42; */
+  color: #267CB9;
+  font-size: 20px;
 }
 
-.hp-video-offset-section {
+.body-wrapper {
+  margin: 8px auto;
+  padding: 280px 50px 50px;
+  position: relative;
+}
+
+.video-offset-section {
+  left: 406px;
   max-width: 500px;
+  position: absolute;
+  top: -58px;
+}
+
+.social-section {
+  background: #232323;
+  min-width: 170px;
+  overflow: hidden;
+  padding: 50px 50px 125px;
+  position: absolute;
+  top: 50px;
+}
+
+.social-section:after {
+  bottom: -34px;
+  color: #1C2B33;
+  content: '#';
+  font-size: 88px;
+  position: absolute;
+  right: 24px;
 }
