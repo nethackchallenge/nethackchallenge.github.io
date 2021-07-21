@@ -1,8 +1,12 @@
 title: NetHack Challenge
-description: >- 
+description: >-
   NeurIPS 2021 NetHack Challenge website
+description_v2: >-
+  Welcome to the NetHack Challenge
+description_subhead_v2: >-
+  At Neurips 2021
 baseurl: ""
-url: "" 
+url: ""
 logo: https://raw.githubusercontent.com/facebookresearch/nle/master/dat/nle/logo.png
 
 # Build settings
@@ -16,6 +20,17 @@ discord_url: "https://discord.gg/zkFWQmSWBA"
 github_url: "https://github.com/facebookresearch/nle"
 AIcrowd_url: "https://www.aicrowd.com/challenges/neurips-2021-nethack-challenge"
 
+defaults:
+  - scope:
+      path: "images"
+    values:
+      image: true
+
+twitter_icon: "images/Twitter_Icon.svg"
+discord_icon: "images/Discord_Icon.svg"
+github_icon: "images/GitHub_Icon.svg"
+paper_icon: "images/Paper_Icon.svg"
+
 github:
-  is_project_page: false 
+  is_project_page: false
   is_user_page: false

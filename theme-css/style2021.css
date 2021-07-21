@@ -77,6 +77,8 @@ header {
   position: absolute;
   text-transform: uppercase;
   top: 50px;
+
+  max-width: 200px;
 }
 
 .social-section:after {
@@ -86,4 +88,9 @@ header {
   font-size: 88px;
   position: absolute;
   right: 24px;
+}
+
+.social-icon {
+  width: 25px;
+  max-width: 17px;
 }

@@ -1,6 +1,24 @@
 <div class="social-section">
-    <div>Discord</div>
-    <div>Twitter</div>
-    <div>GitHup</div>
-    <div>Paper</div>
+    <div>
+        <img class="social-icon" src="{{site.discord_icon | relative_url}}" alt="Discord" />
+        Discord
+    </div>
+    <div>
+        <img class="social-icon" src="{{site.twitter_icon | relative_url}}" alt="Twitter" />
+        Twitter
+    </div>
+    <div>
+        <img class="social-icon" src="{{site.url | relative_url}}/images/GitHub_Icon.svg" alt="GitHub" />
+        GitHup
+    </div>
+    <div>
+        <img class="social-icon" src="{{site.paper_icon | relative_url}}" alt="Paper" />
+        Paper
+    </div>
+    {% assign image_files = site.static_files | where: "image", true %}
+    {% for myimage in image_files %}
+    {{ myimage.path }}
+    {% endfor %}
+    end for
+    {{ site.url }}
 </div>
