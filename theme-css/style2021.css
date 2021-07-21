@@ -14,7 +14,6 @@ body {
 header {
   background: #fff;
   float: none;
-  /* padding-bottom: 112px; */
   padding-bottom: 176px;
   position: relative;
   width: 100%;
@@ -49,7 +48,6 @@ header {
 }
 
 .header-description .sub-header-description {
-  /* color: #267CB9; */
   color: #103B42;
   font-size: 20px;
   text-transform: uppercase;
@@ -73,12 +71,10 @@ header {
   color: #FFF;
   min-width: 170px;
   overflow: hidden;
-  padding: 32px 32px 88px;
+  padding: 32px 32px 64px;
   position: absolute;
   text-transform: uppercase;
   top: 50px;
-
-  max-width: 200px;
 }
 
 .social-section:after {
@@ -90,7 +86,22 @@ header {
   right: 24px;
 }
 
+.social-link {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+}
+
+.social-link:hover {
+  font-weight: 400;
+}
+
 .social-icon {
-  width: 25px;
-  max-width: 17px;
+  margin-right: 16px;
+}
+
+.social-icon.paper {
+  padding: 0 3px;
 }
