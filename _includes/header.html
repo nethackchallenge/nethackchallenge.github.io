@@ -10,8 +10,8 @@
             {% endif %}
 
             <div class="header-description">
-                Welcome to the Nethack Challenge
-                <div class="sub-header-description">at NeurIPS 2021</div>
+                {{ site.description_v2 | default: site.github.project_tagline }}
+                <div class="sub-header-description">{{ site.description_subhead_v2 }}</div>
             </div>
 
             {% comment %}

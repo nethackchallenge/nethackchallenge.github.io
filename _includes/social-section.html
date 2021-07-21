@@ -1,19 +1,27 @@
 <div class="social-section">
     <div>
-        <img class="social-icon" src="{{site.discord_icon | relative_url}}" alt="Discord" />
-        Discord
+        <a href="{{site.discord_url}}">
+            <img class="social-icon" src="{{site.discord_icon | relative_url}}" alt="Discord" />
+            Discord
+        </a>
     </div>
     <div>
-        <img class="social-icon" src="{{site.twitter_icon | relative_url}}" alt="Twitter" />
-        Twitter
+        <a href="{{site.twitter_url}}">
+            <img class="social-icon" src="{{site.twitter_icon | relative_url}}" alt="Twitter" />
+            Twitter
+        </a>
     </div>
     <div>
-        <img class="social-icon" src="{{site.url | relative_url}}/images/GitHub_Icon.svg" alt="GitHub" />
-        GitHup
+        <a href="{{site.github_url}}">
+            <img class="social-icon" src="{{site.url | relative_url}}/images/GitHub_Icon.svg" alt="GitHub" />
+            GitHub
+        </a>
     </div>
     <div>
-        <img class="social-icon" src="{{site.paper_icon | relative_url}}" alt="Paper" />
-        Paper
+        <a href="{{site.AIcrowd_url}}">
+            <img class="social-icon" src="{{site.paper_icon | relative_url}}" alt="Paper" />
+            Paper
+        </a>
     </div>
     {% assign image_files = site.static_files | where: "image", true %}
     {% for myimage in image_files %}
@@ -21,4 +29,5 @@
     {% endfor %}
     end for
     {{ site.url }}
+    <img class="social-icon" src="{{ include.twitter | relative_url}}" alt="Twit" />
 </div>
