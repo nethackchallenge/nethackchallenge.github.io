@@ -1,14 +1,15 @@
 <header>
-    <div class="header-wrapper">
-        <div class="header-alignment wrapper">
+    <div class="header-wrapper container">
+        <div class="header-logo-wrapper col-xs-12 col-md-4">
             {% if site.logo %}
-            <a href="{{ '/' | absolute_url }}"><img class="header-logo" src="{{site.logo | relative_url}}" alt="Logo" /></a>
+            <a class="header-logo-link" href="{{ '/' | absolute_url }}"><img class="header-logo" src="{{site.logo | relative_url}}"
+                    alt="Logo" /></a>
             {% endif %}
+        </div>
 
-            <div class="header-description">
-                {{ site.description_v2 | default: site.github.project_tagline }}
-                <div class="sub-header-description">{{ site.description_subhead_v2 }}</div>
-            </div>
+        <div class="header-description col-xs-12 col-md-8">
+            {{ site.description_v2 | default: site.github.project_tagline }}
+            <div class="sub-header-description">{{ site.description_subhead_v2 }}</div>
         </div>
     </div>
 </header>
