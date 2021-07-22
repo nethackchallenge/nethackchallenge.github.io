@@ -7,7 +7,7 @@ description_subhead_v2: >-
   At Neurips 2021
 baseurl: ""
 url: ""
-logo: https://raw.githubusercontent.com/facebookresearch/nle/master/dat/nle/logo.png
+logo: images/logo.png
 
 # Build settings
 theme: jekyll-theme-minimal
