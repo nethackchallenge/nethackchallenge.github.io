@@ -1,5 +1,6 @@
 .key-dates-icon-pattern {
     user-select: none;
+    opacity: 10%;
 }
 
 .icon-pattern-panel-1 {
@@ -32,7 +33,7 @@
     justify-content: space-between;
     left: 5%;
     position: absolute;
-    width: 50px;
+    width: 72px;
 }
 
 .icon-pattern-dot {
@@ -45,6 +46,7 @@
     color: #FFEBB4;
     font-size: 65px;
     padding-top: 5%;
+    transform: translate(-45%, 0);
 }
 
 .icon-pattern-parenthesis-open {
@@ -55,12 +57,13 @@
 .icon-pattern-pound {
     color: #FFF;
     font-size: 30px;
-    padding: 5% 5% 0;
+    margin: 10% 0 0 -16%;
 }
 
 .icon-pattern-slash {
     color: #199696;
     font-size: 65px;
+    transform: translate(-100%, 20%);
 }
 
 /* panel-2 */
@@ -128,6 +131,7 @@
 @media(min-width: 992px) {
     .key-dates-icon-pattern {
         margin: 0 -15px;
+        opacity: 20%;
     }
 
     .icon-pattern-panel-1 {
@@ -136,6 +140,30 @@
 
     .icon-pattern-panel-2, .icon-pattern-panel-3 {
         display: flex;
+    }
+
+    /* panel-1 */
+    .icon-pattern-dots {
+        width: 50px;
+    }
+
+    .icon-pattern-dot {
+        background: #199696;
+        height: .5rem;
+        width: .5rem;
+    }
+
+    .icon-pattern-dollar {
+        transform: none;
+    }
+
+    .icon-pattern-pound {
+        margin: 0;
+        padding: 5% 5% 0;
+    }
+
+    .icon-pattern-slash {
+        transform: none;
     }
 }
 
