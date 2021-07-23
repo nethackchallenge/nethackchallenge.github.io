@@ -116,12 +116,22 @@ header {
 }
 
 .key-dates-title {
+  font-size: 20px;
   letter-spacing: 4px;
   padding: 56px 0 24px;
 }
 
+.key-dates-wrapper .key-date {
+  padding-left: 0;
+}
+
 .key-dates-wrapper .key-dates-date {
   color: #FFDE89;
+  font-size: 22px;
+}
+
+.key-dates-desc {
+  font-size: 16px;
 }
 
 @media(min-width: 992px) {
@@ -178,8 +188,21 @@ header {
     width: 100%;
   }
 
+  .key-dates-wrapper .key-date {
+    padding-left: 15px;
+  }
+
+  .key-dates-title {
+    font-size: 28px;
+  }
+
+  .key-dates-wrapper .key-dates-date {
+    font-size: 24px;
+  }
+
   .key-dates-desc {
-    width: 80%;
+    font-size: 18px;
+    width: 88%;
   }
 }
 
