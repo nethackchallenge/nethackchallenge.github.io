@@ -1,3 +1,7 @@
+.key-dates-icon-pattern {
+    user-select: none;
+}
+
 .icon-pattern-panel-1 {
     display: flex;
     justify-content: space-between;
