@@ -1,6 +1,14 @@
 ---
-layout: default #change layout to 2021 to see updates
-# layout: 2021
+# layout: default #change layout to 2021 to see updates
+layout: 2021
+
+# key dates
+date1: June 1
+date1desc: Competition Starts. The participants can submit their agents.
+date2: October 15
+date2desc: Submission closes.
+date3: December 13/14
+date3desc: NeurIPS 2021 Competition Track. The winners are announced.
 ---
 
 ## Welcome to NetHack 2021 NeurIPS Challenge
