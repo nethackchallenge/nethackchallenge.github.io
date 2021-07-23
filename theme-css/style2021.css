@@ -177,6 +177,10 @@ header {
   .video-offset-section-asset {
     width: 100%;
   }
+
+  .key-dates-desc {
+    width: 80%;
+  }
 }
 
 @media(min-width: 1200px) {
