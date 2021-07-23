@@ -1,5 +1,14 @@
 ---
+# layout: default #change layout to 2021 to see updates
 layout: 2021
+
+# key dates
+date1: June 1
+date1desc: Competition Starts. The participants can submit their agents.
+date2: October 15
+date2desc: Submission closes.
+date3: December 13/14
+date3desc: NeurIPS 2021 Competition Track. The winners are announced.
 ---
 
 <!-- ![Example of an agent running on NLE](https://github.com/facebookresearch/nle/raw/master/dat/nle/example_run.gif) -->
