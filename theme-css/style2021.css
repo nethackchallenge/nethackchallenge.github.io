@@ -54,14 +54,14 @@ header {
   width: auto;
 }
 
-.social-section, .video-offset-section, .content-section, .key-dates-section, .aicrowd-section {
+.social-section, .video-offset-section, .content-section, .key-dates-section, .aicrowd-section, .resources-section {
   border: 0;
   margin: 0 0 20px;
   padding: 20px 0;
   width: 100%;
 }
 
-.key-dates-section {
+.key-dates-section, .resources-section {
   background: #232323;
 }
 
@@ -115,7 +115,7 @@ header {
   padding: 20px 0 32px;
 }
 
-.key-dates-title {
+.key-dates-title, .resources-title {
   font-size: 20px;
   letter-spacing: 4px;
   padding: 56px 0 24px;
@@ -154,6 +154,13 @@ header {
   display: block;
   font-size: 18px;
   margin-top: 8px;
+}
+
+.resources-link {
+  background: #E6F5F0;
+  color: #232323;
+  font-size: 18px;
+  padding: 24px 88px 24px 44px;
 }
 
 @media(min-width: 992px) {
@@ -214,7 +221,7 @@ header {
     padding-left: 15px;
   }
 
-  .key-dates-title {
+  .key-dates-title, .resources-title {
     font-size: 28px;
   }
 
