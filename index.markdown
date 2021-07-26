@@ -1,8 +1,7 @@
 ---
-layout: 2021
+layout: default #change layout to 2021 to see updates
+# layout: 2021
 ---
-
-<!-- ![Example of an agent running on NLE](https://github.com/facebookresearch/nle/raw/master/dat/nle/example_run.gif) -->
 
 ## Welcome to NetHack 2021 NeurIPS Challenge
 
