@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  background: #fff;
+  background: #FFF;
   float: none;
   padding-bottom: 32px;
   position: relative;
@@ -115,7 +115,7 @@ header {
   padding: 20px 0 32px;
 }
 
-.key-dates-title, .resources-title {
+.key-dates-title {
   font-size: 20px;
   letter-spacing: 4px;
   padding: 56px 0 24px;
@@ -155,11 +155,69 @@ header {
   margin-top: 8px;
 }
 
+.resources-title-container {
+  padding-top: 56px;
+}
+
+.resources-title-column {
+  padding-left: 0;
+}
+
+.resources-title {
+  font-size: 20px;
+  letter-spacing: 4px;
+  padding: 0 0 44px;
+}
+
+.resources-wrapper {
+  clear: both;
+}
+
+.resources-wrapper .resource {
+  margin-bottom: 12px;
+}
+
 .resources-link {
   background: #E6F5F0;
   color: #232323;
+  display: block;
   font-size: 18px;
-  padding: 24px 88px 24px 44px;
+  padding: 24px 44px;
+}
+
+.resources-link-icon {
+  float: right;
+}
+
+.resource-dots-bottom-wrapper {
+  clear: both;
+  padding: 32px 0;
+}
+
+.resource-dots-center-column .icon-pattern-dots {
+  margin: 0 auto;
+  position: relative;
+}
+
+.resource-dots-last-column .icon-pattern-dots {
+  left: unset;
+  right: 5%;
+}
+
+.resource-dots-mobile .icon-pattern-dots {
+  left: 2.5%;
+}
+
+.resource-dots .icon-pattern-dot {
+  background: #FFF;
+}
+
+.resource-dots-rotate {
+  transform: rotate(90deg);
+}
+
+.arrow {
+  margin-left: 12px;
 }
 
 @media(min-width: 992px) {
@@ -231,6 +289,26 @@ header {
   .key-dates-desc {
     font-size: 18px;
     width: 88%;
+  }
+
+  .resources-wrapper .resource {
+    margin-bottom: 0;
+  }
+
+  .resource-dots-bottom-wrapper {
+    padding: 64px 0;
+  }
+
+  .resources-title-container .resource-dots-center-column, .resources-title-container .resource-dots-last-column {
+    padding-top: 16px;
+  }
+
+  .resources-title-container .resource-dots-rotate {
+    right: -16px;
+  }
+
+  .resource-dots-mobile .icon-pattern-dots {
+    left: 5%;
   }
 }
 

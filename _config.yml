@@ -31,6 +31,8 @@ discord_icon: "images/Discord_Icon.svg"
 github_icon: "images/GitHub_Icon.svg"
 paper_icon: "images/Paper_Icon.svg"
 aicrowd_logo: "images/AIcrowd_Logo.png"
+right_dark_arrow: "images/Right-Dark.svg"
+right_light_arrow: "images/Right-Light.svg"
 
 github:
   is_project_page: false
