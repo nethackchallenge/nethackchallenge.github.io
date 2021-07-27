@@ -13,6 +13,11 @@ body {
   color: #E6F5F0;
 }
 
+.hp-body a:hover, .hp-body a:focus {
+  font-weight: regular;
+  text-decoration: none;
+}
+
 header {
   background: #FFF;
   float: none;
@@ -133,7 +138,7 @@ header {
 }
 
 .aicrowd-section .aicrowd-container {
-  padding: 32px 0 64px;
+  padding: 32px 15px 64px;
 }
 
 .aicrowd-logo {

@@ -33,13 +33,13 @@
     justify-content: space-between;
     left: 5%;
     position: absolute;
-    width: 112px;
+    width: 96px;
 }
 
 .icon-pattern-dot {
     background: #199696;
-    height: .75rem;
-    width: .75rem;
+    height: .7rem;
+    width: .7rem;
 }
 
 .icon-pattern-dollar {
@@ -158,6 +158,10 @@
 }
 
 @media(min-width: 1200px) {
+    .icon-pattern-dots {
+        width: 112px;
+    }
+
     .key-dates-icon-pattern {
         margin: 0 -30px;
     }
