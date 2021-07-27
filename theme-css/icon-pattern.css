@@ -33,13 +33,13 @@
     justify-content: space-between;
     left: 5%;
     position: absolute;
-    width: 72px;
+    width: 112px;
 }
 
 .icon-pattern-dot {
     background: #199696;
-    height: .5rem;
-    width: .5rem;
+    height: .75rem;
+    width: .75rem;
 }
 
 .icon-pattern-dollar {
@@ -143,16 +143,6 @@
     }
 
     /* panel-1 */
-    .icon-pattern-dots {
-        width: 50px;
-    }
-
-    .icon-pattern-dot {
-        background: #199696;
-        height: .5rem;
-        width: .5rem;
-    }
-
     .icon-pattern-dollar {
         transform: none;
     }

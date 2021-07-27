@@ -118,55 +118,53 @@ header {
 .key-dates-title {
   font-size: 20px;
   letter-spacing: 4px;
-  padding: 56px 0 24px;
-}
-
-.key-dates-wrapper .key-date {
-  padding-left: 0;
+  padding: 56px 15px 24px;
 }
 
 .key-dates-wrapper .key-dates-date {
   color: #FFDE89;
   font-size: 22px;
+  margin-bottom: 12px;
 }
 
 .key-dates-desc {
   font-size: 16px;
+  margin-bottom: 32px;
 }
 
-.aicrowd-container {
-  align-items: center;
-  display: flex;
-  padding: 32px 0 76px;
+.aicrowd-section .aicrowd-container {
+  padding: 32px 0 64px;
 }
 
 .aicrowd-logo {
-  padding: 0 10% 0 0;
+  padding-bottom: 16px;
+}
+
+.aicrowd-logo-img {
+  padding-right:33%;
 }
 
 .aicrowd-copy {
   color: #FFDE89;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .aicrowd-link {
   color: #E6F5F0;
+  display: block;
   font-size: 18px;
   margin-top: 8px;
+  padding-top: 16px;
 }
 
 .resources-title-container {
-  padding-top: 56px;
-}
-
-.resources-title-column {
-  padding-left: 0;
+  padding-top: 44px;
 }
 
 .resources-title {
   font-size: 20px;
   letter-spacing: 4px;
-  padding: 0 0 44px;
+  padding: 0 0 24px;
 }
 
 .resources-wrapper {
@@ -182,16 +180,21 @@ header {
   color: #232323;
   display: block;
   font-size: 18px;
-  padding: 24px 44px;
+  padding: 20px 24px;
 }
 
 .resources-link-icon {
   float: right;
+  margin-top: -4px;
 }
 
 .resource-dots-bottom-wrapper {
   clear: both;
   padding: 32px 0;
+}
+
+.resource-dots .icon-pattern-dots {
+  width: 72px;
 }
 
 .resource-dots-center-column .icon-pattern-dots {
@@ -204,12 +207,10 @@ header {
   right: 5%;
 }
 
-.resource-dots-mobile .icon-pattern-dots {
-  left: 2.5%;
-}
-
 .resource-dots .icon-pattern-dot {
   background: #FFF;
+  height: .5rem;
+  width: .5rem;
 }
 
 .resource-dots-rotate {
@@ -274,16 +275,17 @@ header {
     width: 100%;
   }
 
-  .key-dates-wrapper .key-date {
-    padding-left: 15px;
-  }
-
   .key-dates-title, .resources-title {
     font-size: 28px;
   }
 
+  .key-dates-title {
+    padding: 56px 0 24px;
+  }
+
   .key-dates-wrapper .key-dates-date {
     font-size: 24px;
+    margin-bottom: 16px;
   }
 
   .key-dates-desc {
@@ -291,12 +293,50 @@ header {
     width: 88%;
   }
 
+  .aicrowd-section .aicrowd-container {
+    align-items: center;
+    display: flex;
+    padding: 32px 0;
+  }
+
+  .aicrowd-logo {
+    margin: 0 10% 0 0;
+  }
+
+  .aicrowd-logo-img {
+    padding-right: 0;
+  }
+
+  .aicrowd-copy {
+    font-size: 24px;
+  }
+
+  .resources-title-container {
+    padding-top: 68px;
+  }
+
+  .resources-title-column {
+    padding-left: 0;
+  }
+
+  .resources-title {
+    padding: 0 0 44px;
+  }
+
+  .resources-wrapper {
+    margin: 0 -15px;
+  }
+
   .resources-wrapper .resource {
     margin-bottom: 0;
   }
 
+  .resources-link {
+    padding: 24px 44px;
+  }
+
   .resource-dots-bottom-wrapper {
-    padding: 64px 0;
+    padding: 80px 0;
   }
 
   .resources-title-container .resource-dots-center-column, .resources-title-container .resource-dots-last-column {
@@ -304,11 +344,7 @@ header {
   }
 
   .resources-title-container .resource-dots-rotate {
-    right: -16px;
-  }
-
-  .resource-dots-mobile .icon-pattern-dots {
-    left: 5%;
+    right: -28px;
   }
 }
 
