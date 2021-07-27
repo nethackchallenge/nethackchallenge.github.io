@@ -81,7 +81,7 @@ header {
   width: auto;
 }
 
-.social-section, .video-offset-section, .content-section, .key-dates-section, .aicrowd-section, .resources-section, .team-section {
+.social-section, .video-offset-section, .content-section, .key-dates-section, .aicrowd-section, .resources-section {
   border: 0;
   float: none;
   margin: 0 0 20px;
@@ -103,6 +103,10 @@ header {
 
 .key-dates-section, .resources-section {
   background: #232323;
+}
+
+.team-section {
+  background: #E6F5F0;
 }
 
 .social-section-box {

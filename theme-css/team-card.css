@@ -1,6 +1,6 @@
-body .team-section {
+.hp-body .team-section {
     background: url(/images/Team-Background.svg) no-repeat bottom right #E6F5F0;
-    background-size: 414px 144px;
+    background-size: 764px 144px;
     margin-top: -20px;
 }
 
@@ -31,11 +31,14 @@ body .team-section {
 
 .team-section-container {
     display: block;
+    width: 325px;
+    margin-bottom: 34px;
+    margin-right: 44px;
 }
 
 .card-body {
     display: inline-block;
-    padding-top: 12px;
+    padding-top: 24px;
     padding-left: 18px;
 }
 
