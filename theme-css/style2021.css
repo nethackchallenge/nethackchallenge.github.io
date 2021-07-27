@@ -14,7 +14,8 @@ body {
 }
 
 .hp-body a:hover, .hp-body a:focus {
-  font-weight: regular;
+  color: #FFF;
+  font-weight: 400;
   text-decoration: none;
 }
 
@@ -61,6 +62,7 @@ header {
 
 .social-section, .video-offset-section, .content-section, .key-dates-section, .aicrowd-section, .resources-section {
   border: 0;
+  float: none;
   margin: 0 0 20px;
   padding: 20px 0;
   width: 100%;
@@ -188,6 +190,10 @@ header {
   padding: 20px 24px;
 }
 
+.hp-body .resources-link:hover {
+  color: #232323;
+}
+
 .resources-link-icon {
   float: right;
   margin-top: -4px;
@@ -242,8 +248,13 @@ header {
     display: flex;
   }
 
-  .social-section, .video-offset-section, .content-section {
+  .social-section, .video-offset-section {
     margin: 0;
+    padding: 0 0 0 24px;
+  }
+
+  .content-section {
+    margin: 0 0 0 33.33333333%;
     padding: 0 0 0 24px;
   }
 
