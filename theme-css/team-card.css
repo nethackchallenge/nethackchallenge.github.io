@@ -46,7 +46,6 @@ body .team-section {
 }
 
 .team-background {
-
     bottom: 71%;
     left: 43%;
     position: fixed;
@@ -82,15 +81,10 @@ body .team-section {
     }
 
     .card-body {
-        padding-top: 24px;
-        padding-left: 18px;
+        padding: 24px 0 0 18px;
     }
 
     .hp-body .team-title {
         margin-top: 74px;
-    }
-
-    .team-background {
-        position: fixed;
     }
 }

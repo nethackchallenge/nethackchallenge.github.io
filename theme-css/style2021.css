@@ -285,8 +285,18 @@ header {
   background: #232323;
   bottom: 0;
   float: none;
+  margin-top: -20px;
+  padding-top: 20px;
   position: relative;
   width: 100%;
+}
+
+.footer-content {
+  font-family: Optimistic Text;
+}
+
+.footer-icon {
+  visibility: hidden;
 }
 
 /* col-sm breakpoint for social box */
@@ -450,6 +460,28 @@ header {
   .resources-title-container .resource-dots-rotate {
     right: -28px;
   }
+
+  .footer {
+    padding: 34px 0 38px 0;
+  }
+
+  .footer-content {
+    display: inline-block;
+  }
+
+  .footer-icon-container {
+    display: inline-block;
+    text-align: right;
+    width: 50%;
+  }
+
+  .footer-icon {
+    height: 28px;
+    margin-right: 23px;
+    text-align: right;
+    visibility: visible;
+    width: 28px;
+  }
 }
 
 @media(min-width: 1200px) {
@@ -460,5 +492,9 @@ header {
 
   .social-section-box {
     top: -350px;
+  }
+
+  .footer-icon-container {
+    width: 75%;
   }
 }
