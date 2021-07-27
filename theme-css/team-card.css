@@ -16,15 +16,21 @@ body .team-section {
     border-radius: 15px;
     display: flex;
     height: 140px;
+    padding: 24px 27px 50px 27px;
     position: relative;
     margin-bottom: 34px;
     z-index: 1;
 }
 
 .card-image {
+    display: inline-block;
     height: 95px;
     max-width: 95px;
     padding: 10px 0 8px 22px;
+}
+
+.team-section-container {
+    display: block;
 }
 
 .card-body {
@@ -42,14 +48,6 @@ body .team-section {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 5px;
-}
-
-.team-background {
-    bottom: 71%;
-    left: 43%;
-    position: fixed;
-    top: 64%;
-    z-index: 0;
 }
 
 .card-text {
@@ -70,7 +68,6 @@ body .team-section {
         padding-left: 20px;
     }
     body .team-section {
-        background: url(/images/Team-Background.svg) no-repeat bottom right #E6F5F0;
         background-size: 816px 302px;
     }
 }
