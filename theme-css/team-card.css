@@ -1,10 +1,13 @@
-.team-section {
+body .team-section {
+    background: url(/images/Team-Background.svg) no-repeat bottom right #E6F5F0;
+    background-size: 414px 144px;
     margin-top: -20px;
 }
 
 .hp-body .team-title {
     color: #465A69;
     margin-bottom: 54px;
+    margin-top: 46px;
     padding-left: 15px;
 }
 
@@ -13,8 +16,10 @@
     border-radius: 15px;
     display: flex;
     height: 140px;
+    position: relative;
     margin-bottom: 34px;
     margin-right: 44px;
+    z-index: 1;
 }
 
 .card-image {
@@ -25,7 +30,7 @@
 
 .card-body {
     display: inline-block;
-    padding-top: 24px;
+    padding-top: 12px;
     padding-left: 18px;
 }
 
@@ -40,6 +45,15 @@
     margin-bottom: 5px;
 }
 
+.team-background {
+
+    bottom: 71%;
+    left: 43%;
+    position: fixed;
+    top: 64%;
+    z-index: 0;
+}
+
 .card-text {
     font-size: 14px;
     font-weight: 700;
@@ -51,10 +65,32 @@
     .card {
         width: 325px;
     }
+
+    .card-body {
+        padding-top: 32px;
+        padding-left: 20px;
+    }
+    body .team-section {
+        background: url(/images/Team-Background.svg) no-repeat bottom right #E6F5F0;
+        background-size: 816px 302px;
+    }
 }
 
 @media(min-width: 1200px) {
     .card {
         max-width: 382px;
+    }
+
+    .card-body {
+        padding-top: 24px;
+        padding-left: 18px;
+    }
+
+    .hp-body .team-title {
+        margin-top: 74px;
+    }
+
+    .team-background {
+        position: fixed;
     }
 }
