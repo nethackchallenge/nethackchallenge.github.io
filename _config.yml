@@ -21,6 +21,15 @@ github_url: "https://github.com/facebookresearch/nle"
 AIcrowd_url: "https://www.aicrowd.com/challenges/neurips-2021-nethack-challenge"
 paper_url: "https://arxiv.org/abs/2006.13760"
 
+<<<<<<< HEAD
+=======
+defaults:
+  - scope:
+      path: "images"
+    values:
+      image: true
+
+>>>>>>> 6746f07 (renaming assets)
 discord_icon: "images/Discord_Icon.svg"
 facebook_icon: "images/Facebook_Icon.svg"
 github_icon: "images/GitHub_Icon.svg"
