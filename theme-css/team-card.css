@@ -18,7 +18,6 @@ body .team-section {
     height: 140px;
     position: relative;
     margin-bottom: 34px;
-    margin-right: 44px;
     z-index: 1;
 }
 
@@ -62,6 +61,7 @@ body .team-section {
 
 @media(min-width: 992px) {
     .card {
+        margin-right: 44px;
         width: 325px;
     }
 
