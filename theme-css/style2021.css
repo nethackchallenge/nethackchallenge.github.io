@@ -68,6 +68,10 @@ header {
   width: 100%;
 }
 
+.content-section {
+  padding: 20px;
+}
+
 .key-dates-section, .resources-section {
   background: #232323;
 }
