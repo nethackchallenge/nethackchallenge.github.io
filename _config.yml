@@ -7,7 +7,7 @@ description_subhead_v2: >-
   At Neurips 2021
 baseurl: ""
 url: ""
-logo: images/logo.png
+logo: assets/images/logo.png
 
 # Build settings
 theme: jekyll-theme-minimal
@@ -20,19 +20,13 @@ discord_url: "https://discord.gg/zkFWQmSWBA"
 github_url: "https://github.com/facebookresearch/nle"
 AIcrowd_url: "https://www.aicrowd.com/challenges/neurips-2021-nethack-challenge"
 
-defaults:
-  - scope:
-      path: "images"
-    values:
-      image: true
-
-twitter_icon: "images/Twitter_Icon.svg"
-discord_icon: "images/Discord_Icon.svg"
-github_icon: "images/GitHub_Icon.svg"
-paper_icon: "images/Paper_Icon.svg"
-aicrowd_logo: "images/AIcrowd_Logo.png"
-right_dark_arrow: "images/Right-Dark.svg"
-right_light_arrow: "images/Right-Light.svg"
+twitter_icon: "assets/images/Twitter_Icon.svg"
+discord_icon: "assets/images/Discord_Icon.svg"
+github_icon: "assets/images/GitHub_Icon.svg"
+paper_icon: "assets/images/Paper_Icon.svg"
+aicrowd_logo: "assets/images/AIcrowd_Logo.png"
+right_dark_arrow: "assets/images/Right-Dark.svg"
+right_light_arrow: "assets/images/Right-Light.svg"
 
 github:
   is_project_page: false
