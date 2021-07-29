@@ -81,7 +81,7 @@ header {
   width: auto;
 }
 
-.social-section, .video-offset-section, .content-section, .key-dates-section, .aicrowd-section, .resources-section, .team-section {
+.social-section, .video-offset-section, .content-section, .key-dates-section, .aicrowd-section, .resources-section {
   border: 0;
   float: none;
   margin: 0 0 20px;
@@ -93,8 +93,18 @@ header {
   padding: 20px;
 }
 
+.team-section {
+  border: 0;
+  padding: 20px 0;
+  width: 100%;
+}
+
 .key-dates-section, .resources-section {
   background: #232323;
+}
+
+.team-section {
+  background: #E6F5F0;
 }
 
 .social-section-box {
@@ -273,6 +283,10 @@ header {
   margin-left: 12px;
 }
 
+.footer {
+  background: #232323;
+}
+
 /* col-sm breakpoint for social box */
 @media(min-width: 961px) {
   .social-link-wrapper {
@@ -281,7 +295,6 @@ header {
   }
 }
 
-/* Desktop breakpoint */
 @media(min-width: 992px) {
   header {
     padding-bottom: 76px;

@@ -1,20 +1,33 @@
-.team-section-container {
-    display: block;
+.team-section {
+    margin-top: -20px;
+}
+
+.team-title {
+    color: #465A69 !important;
+    margin-bottom: 54px;
 }
 .card {
     background-color: #232323;
     border-radius: 15px;
-    padding: 24px 27px 50px 27px;
+    display: flex;
+    height: 140px;
+    width: 325px;
+    margin-bottom: 34px;
+    margin-right: 44px;
 }
 
 .card-image {
-    display: inline-block;
+    height: 95px;
     max-width: 95px;
+    padding: 10px 0 8px 22px;
 }
 
 .card-body {
     display: inline-block;
+    padding-top: 24px;
+    padding-left: 18px;
 }
+
 .card-title, .card-text {
     font-family: Optimistic Text;
 }
@@ -23,13 +36,22 @@
     color: #FFDE89 !important;
     font-size: 18px;
     font-weight: 400;
-    line-height: 24px;
+    margin-bottom: 5px;
 }
 
 .card-text {
     font-size: 14px;
     font-weight: 700;
-    line-height: 21px;
     letter-spacing: 0.2em;
     text-align: left;
+}
+
+@media(min-width: 992px) {
+
+}
+
+@media(min-width: 1200px) {
+    .card {
+        max-width: 382px;
+    }
 }
