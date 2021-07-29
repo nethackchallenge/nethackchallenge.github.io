@@ -1,22 +1,25 @@
 .hp-body .team-section {
     background: url(/images/Team-Background.svg) no-repeat bottom right #E6F5F0;
+    background-position: right 47% bottom 1px;
     background-size: 764px 144px;
     margin-top: -20px;
+    padding-bottom: 70px;
 }
 
 .hp-body .team-title {
     color: #465A69;
-    margin-bottom: 54px;
-    margin-top: 46px;
-    padding-left: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 4px;
+    padding: 44px 0 36px 18px;
 }
 
 .card {
     background-color: #232323;
     border-radius: 15px;
     display: flex;
-    height: 140px;
     padding: 24px 27px 50px 27px;
+    height: 148px;
     position: relative;
     margin-bottom: 34px;
     z-index: 1;
@@ -24,9 +27,10 @@
 
 .card-image {
     display: inline-block;
-    height: 95px;
-    max-width: 95px;
     padding: 10px 0 8px 22px;
+    height: 58px;
+    margin: 26px 0 26px 29px;
+    max-width: 58px;
 }
 
 .team-section-container {
@@ -38,8 +42,7 @@
 
 .card-body {
     display: inline-block;
-    padding-top: 12px;
-    padding-left: 18px;
+    padding: 26px 0 0 12px;
 }
 
 .card-title, .card-text {
@@ -48,7 +51,7 @@
 
 .hp-body .card-title {
     color: #FFDE89;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 5px;
 }
@@ -66,6 +69,7 @@
     font-weight: 700;
     letter-spacing: 0.2em;
     text-align: left;
+    text-transform: uppercase;
 }
 
 @media(min-width: 992px) {
@@ -75,25 +79,49 @@
     }
 
     .card-body {
-        padding-top: 32px;
-        padding-left: 20px;
+        padding: 24px 4px 0 18px;
     }
+
     .hp-body .team-section {
         background: url(/images/Team-Background.svg) no-repeat bottom right #E6F5F0;
-        background-size: 816px 302px;
+        background-size: 730px 302px;
+    }
+
+    .hp-body .team-title {
+        color: #465A69;
+        font-size: 28px;
+        letter-spacing: 4px;
+        padding: 44px 0 54px 15px;
+    }
+
+    .hp-body .card-title {
+        font-size: 18px;
+    }
+
+    .card-image {
+        height: 95px;
+        margin: 0;
+        max-width: 95px;
+        padding: 12px 0 2px 22px;
     }
 }
 
 @media(min-width: 1200px) {
+    body .team-section {
+        background-position: bottom -50px right 134px;
+    }
+
     .card {
         max-width: 382px;
     }
 
-    .card-body {
-        padding: 24px 0 0 18px;
-    }
-
     .hp-body .team-title {
         margin-top: 74px;
+    }
+}
+
+@media(min-width: 1920px) {
+    body .team-section {
+        background-position: bottom -10% right 36%;
     }
 }

@@ -1,5 +1,5 @@
 ---
-#layout: default #change layout to 2021 to see updates
+# layout: default #change layout to 2021 to see updates
 layout: 2021
 
 # key dates
