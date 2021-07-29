@@ -15,12 +15,15 @@ plugins:
   - jekyll-feed
 
 show_downloads: true
+
+facebook_url: "https://www.facebook.com/FacebookAI/"
 twitter_url: "https://twitter.com/NetHack_LE"
 discord_url: "https://discord.gg/zkFWQmSWBA"
 github_url: "https://github.com/facebookresearch/nle"
 AIcrowd_url: "https://www.aicrowd.com/challenges/neurips-2021-nethack-challenge"
 paper_url: "https://arxiv.org/abs/2006.13760"
 
+facebook_icon: "images/Facebook_Icon.svg"
 twitter_icon: "images/Twitter_Icon.svg"
 discord_icon: "images/Discord_Icon.svg"
 github_icon: "images/GitHub_Icon.svg"
