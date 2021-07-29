@@ -1,6 +1,7 @@
 .key-dates-icon-pattern {
-    user-select: none;
+    clear: both;
     opacity: 10%;
+    user-select: none;
 }
 
 .icon-pattern-panel-1 {

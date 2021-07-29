@@ -1,6 +1,8 @@
 @import url("icon-pattern.css");
+@import url("fonts2021.css");
 
 body {
+  font-family: "Optimistic Text", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -13,10 +15,18 @@ body {
   color: #E6F5F0;
 }
 
+.hp-body h1, .hp-body h2, .hp-body h3, .hp-body h4, .hp-body h5, .hp-body h6 {
+  font-family: "Optimistic Display", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.hp-body a {
+  color: #199696;
+}
+
 .hp-body a:hover, .hp-body a:focus {
   color: #FFF;
   font-weight: 400;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 header {
@@ -87,19 +97,24 @@ header {
 
 .social-section-box:after {
   bottom: -42px;
-  color: #1C2B33;
+  color: #103B42;
   content: '#';
   font-size: 88px;
   position: absolute;
   right: 24px;
 }
 
-.social-link {
+.social-link-wrapper {
+  padding-left: 30px;
+}
+
+.hp-body .social-link {
   align-items: center;
   color: #FFF;
   display: flex;
   letter-spacing: 3px;
   margin-bottom: 28px;
+  max-width: 160px;
 }
 
 .social-link:hover {
@@ -160,7 +175,7 @@ header {
   font-size: 22px;
 }
 
-.aicrowd-link {
+.hp-body .aicrowd-link {
   color: #E6F5F0;
   display: block;
   font-size: 18px;
@@ -186,7 +201,7 @@ header {
   margin-bottom: 12px;
 }
 
-.resources-link {
+.hp-body .resources-link {
   background: #E6F5F0;
   color: #232323;
   display: block;
@@ -236,6 +251,15 @@ header {
   margin-left: 12px;
 }
 
+/* col-sm breakpoint for social box */
+@media(min-width: 961px) {
+  .social-link-wrapper {
+    margin: 0 auto;
+    max-width: 645px;
+  }
+}
+
+/* Desktop breakpoint */
 @media(min-width: 992px) {
   header {
     padding-bottom: 76px;
@@ -279,6 +303,12 @@ header {
 
   .social-section-box:after {
     bottom: -34px;
+  }
+
+  .social-link-wrapper {
+    margin: 0 auto;
+    max-width: 100%;
+    padding-left: 0;
   }
 
   .video-offset-section {
