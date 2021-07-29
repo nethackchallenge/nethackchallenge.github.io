@@ -91,7 +91,7 @@ header {
   color: #FFF;
   margin: -30px;
   overflow: hidden;
-  padding: 50px;
+  padding: 60px 50px 50px;
   text-transform: uppercase;
 }
 
@@ -297,6 +297,7 @@ header {
   .social-section-box {
     margin: 0;
     min-width: 170px;
+    padding-top: 50px;
     position: absolute;
     top: -276px;
   }
