@@ -2,16 +2,17 @@
     margin-top: -20px;
 }
 
-.team-title {
-    color: #465A69 !important;
+.hp-body .team-title {
+    color: #465A69;
     margin-bottom: 54px;
+    padding-left: 15px;
 }
+
 .card {
     background-color: #232323;
     border-radius: 15px;
     display: flex;
     height: 140px;
-    width: 325px;
     margin-bottom: 34px;
     margin-right: 44px;
 }
@@ -32,8 +33,8 @@
     font-family: Optimistic Text;
 }
 
-.card-title {
-    color: #FFDE89 !important;
+.hp-body .card-title {
+    color: #FFDE89;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 5px;
@@ -47,7 +48,9 @@
 }
 
 @media(min-width: 992px) {
-
+    .card {
+        width: 325px;
+    }
 }
 
 @media(min-width: 1200px) {

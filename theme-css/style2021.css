@@ -91,10 +91,12 @@ header {
 
 .content-section {
   padding: 20px;
+  float: right;
 }
 
 .team-section {
   border: 0;
+  float: none;
   padding: 20px 0;
   width: 100%;
 }
@@ -285,6 +287,10 @@ header {
 
 .footer {
   background: #232323;
+  bottom: 0;
+  float: none;
+  position: relative;
+  width: 100%;
 }
 
 /* col-sm breakpoint for social box */
