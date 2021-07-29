@@ -2,40 +2,41 @@
     font-family: 'Optimistic Text';
     font-weight: 400;
     font-style: normal;
-    src: url("../assets/fonts/Optimistic_Text_W_Rg.eot");
+    src: url("../fonts/Optimistic_Text_W_Rg.eot");
 }
 
 @font-face {
     font-family: 'Optimistic Text';
     font-weight: 700;
     font-style: normal;
-    src: url("../assets/fonts/Optimistic_Text_W_Bd.eot");
+    src: url("../fonts/Optimistic_Text_W_Bd.eot");
 
 }
+
 @font-face {
     font-family: 'Optimistic Text';
     font-weight: 400;
     font-style: italic;
-    src: url("../assets/fonts/Optimistic_Text_W_Lt.eot");
+    src: url("../fonts/Optimistic_Text_W_Lt.eot");
 }
 
 @font-face {
     font-family: 'Optimistic Display';
     font-weight: 400;
     font-style: italic;
-    src: url("../assets/fonts/Optimistic_Display_W_Md.eot");
+    src: url("../fonts/Optimistic_Display_W_Md.eot");
 }
 
 @font-face {
     font-family: 'Optimistic Display';
     font-weight: 400;
     font-style: italic;
-    src: url("../assets/fonts/Optimistic_Display_W_Lt.eot");
+    src: url("../fonts/Optimistic_Display_W_Lt.eot");
 }
 
 @font-face {
     font-family: 'Optimistic Display';
     font-weight: 700;
     font-style: italic;
-    src: url("../assets/fonts/Optimistic_Display_W_Bd.eot");
+    src: url("../fonts/Optimistic_Display_W_Bd.eot");
 }
