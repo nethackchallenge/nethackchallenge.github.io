@@ -24,7 +24,7 @@ body {
 }
 
 .hp-body a:hover, .hp-body a:focus {
-  color: #FFF;
+  color: #199696;
   font-weight: 400;
   text-decoration: underline;
 }
@@ -121,6 +121,10 @@ header {
   max-width: 160px;
 }
 
+.hp-body .social-link:hover {
+  color: #FFF;
+}
+
 .social-link:hover {
   font-weight: 400;
 }
@@ -185,6 +189,10 @@ header {
   font-size: 18px;
   margin-top: 8px;
   padding-top: 16px;
+}
+
+.hp-body .aicrowd-link:hover {
+  color: #E6F5F0;
 }
 
 .resources-title-container {
