@@ -1,5 +1,6 @@
-@import url("icon-pattern.css");
 @import url("fonts2021.css");
+@import url("icon-pattern.css");
+@import url("team-card.css");
 
 body {
   font-family: "Optimistic Text", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -80,7 +81,7 @@ header {
   width: auto;
 }
 
-.social-section, .video-offset-section, .content-section, .key-dates-section, .aicrowd-section, .resources-section {
+.social-section, .video-offset-section, .content-section, .key-dates-section, .aicrowd-section, .resources-section, .team-section {
   border: 0;
   float: none;
   margin: 0 0 20px;
@@ -207,7 +208,7 @@ header {
   padding-top: 44px;
 }
 
-.resources-title {
+.resources-title .team-title {
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 4px;

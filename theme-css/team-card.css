@@ -1,0 +1,35 @@
+.team-section-container {
+    display: block;
+}
+.card {
+    background-color: #232323;
+    border-radius: 15px;
+    padding: 24px 27px 50px 27px;
+}
+
+.card-image {
+    display: inline-block;
+    max-width: 95px;
+}
+
+.card-body {
+    display: inline-block;
+}
+.card-title, .card-text {
+    font-family: Optimistic Text;
+}
+
+.card-title {
+    color: #FFDE89 !important;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.card-text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-align: left;
+}
