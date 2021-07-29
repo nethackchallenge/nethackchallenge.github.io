@@ -48,18 +48,21 @@ header {
 }
 
 .header-wrapper .header-description {
-  color: #1C2B33;
   display: block;
-  font-size: 26px;
-  letter-spacing: 0.5px;
   margin: 0;
   padding-left: 24px;
   right: 0;
 }
 
+.header-wrapper .header-title {
+  color: #1C2B33;
+  font-size: 30px;
+  letter-spacing: 0.5px;
+}
+
 .header-description .sub-header-description {
   color: #199696;
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
@@ -274,6 +277,18 @@ header {
   .header-wrapper {
     align-items: center;
     display: flex;
+  }
+
+  .header-wrapper .header-description {
+    padding: 64px 15px 32px 24px;
+  }
+
+  .header-wrapper .header-title {
+    font-size: 40px;
+  }
+
+  .header-description .sub-header-description {
+    font-size: 26px;
   }
 
   .social-section, .video-offset-section {
