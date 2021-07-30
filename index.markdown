@@ -17,17 +17,17 @@ The NetHack Challenge is a competition at NeurIPS 2021 in which teams will compe
 
 NetHack is a ASCII-rendered single-player dungeon crawl game that is one of the oldest and most difficult computer games in history.  NetHack is procedurally-generated, with hundreds of different entities and complex environment dynamics, presenting an extremely challenging environment for both current state-of-the-art RL agents and humans, while crucially being lightning-fast to simulate.
 
-Check out the [NetHack Wiki](https://nethackwiki.com/wiki/Main_Page) and [nethack.org](http://nethack.org/) to learn more about NetHack, or head over to the [Challenge Page](https://www.aicrowd.com/challenges/neurips-2021-nethack-challenge) for an intro.
+Check out the [NetHack Wiki](https://nethackwiki.com/wiki/Main_Page){:target="_blank"} and [nethack.org](http://nethack.org/){:target="_blank"} to learn more about NetHack, or head over to the [Challenge Page](https://www.aicrowd.com/challenges/neurips-2021-nethack-challenge){:target="_blank"} for an intro.
 
 
 ## What is the NetHack Learning Environment?
 
-The NetHack Learning Environment (NLE) is a Reinforcement Learning environment presented at NeurIPS 2020. NLE is based on NetHack 3.6.6 and designed to provide a standard RL interface to the game, and comes with tasks that function as a first step to evaluate agents on this new environment. You can read more about NLE in the NeurIPS 2020 paper.
+The NetHack Learning Environment (NLE) is a Reinforcement Learning environment presented at NeurIPS 2020. NLE is based on [NetHack 3.6.6](https://github.com/NetHack/NetHack/tree/NetHack-3.6.6_PostRelease){:target="_blank"} and designed to provide a standard RL interface to the game, and comes with tasks that function as a first step to evaluate agents on this new environment. You can read more about NLE in the [NeurIPS 2020 paper](https://arxiv.org/abs/2006.13760){:target="_blank"}.
 
 
 ## About the NetHack Challenge At NeurIPS 2021
 
-The NetHack Challenge invites entrants, using any method they choose, to develop agents that can reliably either beat the full game of NetHack or achieve as high a score as possible. No restrictions are placed on how the agent is trained and contestants will use their own hardware. Evaluation will be performed in a controlled setting, thanks to our partner and co-organizer, AIcrowd who will run the competition through their platform.
+The NetHack Challenge invites entrants, using any method they choose, to develop agents that can reliably either beat the full game of NetHack or achieve as high a score as possible. No restrictions are placed on how the agent is trained and contestants will use their own hardware. Evaluation will be performed in a controlled setting, thanks to our partner and co-organizer, [AIcrowd](https://www.aicrowd.com/){:target="_blank"} who will run the competition [through their platform](https://www.aicrowd.com/challenges/neurips-2021-the-nethack-challenge){:target="_blank"}.
 
 We are excited that this competition offers machine learning students, researchers and NetHack-bot builders the opportunity to participate in a grand challenge in AI - without prohibitive computational costs — and we are eagerly looking forward to the wide variety of submissions.
 
@@ -44,4 +44,4 @@ $5000 awarded to the best-performing agent not using a neural network or signifi
 $5000 awarded to the best-performing agent produced by a team predominantly led by non-industry-affiliated researchers.
 
 
-The competition runs from early June through October 15, and the winners will be announced at NeurIPS in December. For more information, checkout out the [Challenge Page](https://www.aicrowd.com/challenges/neurips-2021-nethack-challenge), read our blog [here](https://ai.facebook.com/blog/launching-the-nethack-challenge-at-neurips-2021). You can also follow us on [Twitter](https://twitter.com/NetHack_LE), join our [Discord server](https://discord.gg/zkFWQmSWBA), or get acquainted with the [NetHack Learning Environment](https://github.com/facebookresearch/nle).
+The competition runs from early June through October 15, and the winners will be announced at NeurIPS in December. For more information, checkout out the [Challenge Page](https://www.aicrowd.com/challenges/neurips-2021-nethack-challenge){:target="_blank"}, read our blog [here](https://ai.facebook.com/blog/launching-the-nethack-challenge-at-neurips-2021){:target="_blank"}. You can also follow us on [Twitter](https://twitter.com/NetHack_LE){:target="_blank"}, join our [Discord server](https://discord.gg/zkFWQmSWBA){:target="_blank"}, or get acquainted with the [NetHack Learning Environment](https://github.com/facebookresearch/nle){:target="_blank"}.
