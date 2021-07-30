@@ -18,6 +18,9 @@ body {
 
 .hp-body h1, .hp-body h2, .hp-body h3, .hp-body h4, .hp-body h5, .hp-body h6 {
   font-family: "Optimistic Display", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.content-section h1, .content-section h2, .content-section h3, .content-section h4, .content-section h5, .content-section h6 {
   margin: 40px 0 20px;
 }
 
