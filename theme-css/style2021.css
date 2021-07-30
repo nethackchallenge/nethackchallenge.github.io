@@ -153,6 +153,7 @@ header {
 
 .key-dates-title {
   font-size: 20px;
+  font-weight: 700;
   letter-spacing: 4px;
   padding: 56px 15px 24px;
 }
@@ -203,6 +204,7 @@ header {
 
 .resources-title {
   font-size: 20px;
+  font-weight: 700;
   letter-spacing: 4px;
   padding: 0 0 24px;
 }
