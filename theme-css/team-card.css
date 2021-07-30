@@ -69,7 +69,7 @@ body .team-section {
     }
 
     .card-body {
-        padding: 24px 4px 0 18px;
+        padding: 24px 28px 0 18px;
     }
 
     body .team-section {
@@ -81,7 +81,7 @@ body .team-section {
         color: #465A69;
         font-size: 28px;
         letter-spacing: 4px;
-        padding: 44px 0 54px 15px;
+        padding: 64px 0 54px 15px;
     }
 
     .hp-body .card-title {
@@ -89,8 +89,8 @@ body .team-section {
     }
 
     .card-image {
-        height: 95px;
-        max-width: 95px;
+        height: 70px;
+        max-width: 70px;
         margin: 12px 0 2px 22px;
     }
 }
@@ -102,10 +102,6 @@ body .team-section {
 
     .card {
         max-width: 382px;
-    }
-
-    .hp-body .team-title {
-        margin-top: 74px;
     }
 }
 

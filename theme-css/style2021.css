@@ -286,17 +286,26 @@ header {
   bottom: 0;
   float: none;
   margin-top: -20px;
-  padding-top: 20px;
+  padding: 26px 0 26px 26px;
   position: relative;
   width: 100%;
 }
-
 .footer-content {
-  font-family: Optimistic Text;
+  display: inline-block;
+}
+
+.footer-icon-container {
+  display: inline-block;
+  text-align: right;
+  width: 50%;
 }
 
 .footer-icon {
-  visibility: hidden;
+  height: 28px;
+  margin-right: 23px;
+  text-align: right;
+  visibility: visible;
+  width: 28px;
 }
 
 .footer-link {
@@ -466,25 +475,7 @@ header {
   }
 
   .footer {
-    padding: 34px 0 38px 0;
-  }
-
-  .footer-content {
-    display: inline-block;
-  }
-
-  .footer-icon-container {
-    display: inline-block;
-    text-align: right;
-    width: 50%;
-  }
-
-  .footer-icon {
-    height: 28px;
-    margin-right: 23px;
-    text-align: right;
-    visibility: visible;
-    width: 28px;
+    padding: 34px 0 38px 54px;
   }
 }
 
