@@ -65,6 +65,7 @@ header {
 .header-description .sub-header-description {
   color: #199696;
   font-size: 16px;
+  font-weight: 500;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
@@ -218,7 +219,7 @@ header {
 }
 
 .hp-body .resources-link {
-  background: #E6F5F0;
+  background: #FFF;
   color: #232323;
   display: block;
   font-size: 18px;
