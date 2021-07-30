@@ -478,6 +478,11 @@ header {
   .footer {
     padding: 34px 0 38px 54px;
   }
+  .footer-icon-container {
+    float: none;
+    text-align: right;
+    width: 50%;
+  }
 }
 
 @media(min-width: 1200px) {
@@ -491,7 +496,6 @@ header {
   }
 
   .footer-icon-container {
-    float: right;
-    margin-right: 12%;
+    width: 75%;
   }
 }
