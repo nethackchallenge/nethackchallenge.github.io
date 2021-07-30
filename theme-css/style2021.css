@@ -322,7 +322,6 @@ header {
 
 @media(min-width: 992px) {
   header {
-    margin-bottom: 28px;
     padding-bottom: 76px;
   }
 
