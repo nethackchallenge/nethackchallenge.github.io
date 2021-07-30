@@ -292,12 +292,12 @@ header {
 }
 .footer-content {
   display: inline-block;
+
 }
 
 .footer-icon-container {
   display: inline-block;
-  text-align: right;
-  width: 50%;
+  float: right;
 }
 
 .footer-icon {
@@ -491,6 +491,7 @@ header {
   }
 
   .footer-icon-container {
-    width: 75%;
+    float: right;
+    margin-right: 12%;
   }
 }
