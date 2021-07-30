@@ -299,6 +299,10 @@ header {
   visibility: hidden;
 }
 
+.footer-link {
+  text-decoration: none;
+}
+
 /* col-sm breakpoint for social box */
 @media(min-width: 961px) {
   .social-link-wrapper {

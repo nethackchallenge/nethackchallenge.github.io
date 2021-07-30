@@ -90,9 +90,8 @@ body .team-section {
 
     .card-image {
         height: 95px;
-        margin: 0;
         max-width: 95px;
-        padding: 12px 0 2px 22px;
+        margin: 12px 0 2px 22px;
     }
 }
 
