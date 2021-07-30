@@ -117,6 +117,7 @@ header {
   align-items: center;
   color: #FFF;
   display: flex;
+  font-size: 14px;
   letter-spacing: 3px;
   margin-bottom: 28px;
   max-width: 175px;
@@ -313,6 +314,10 @@ header {
 
   .social-section {
     width: 33.33333333%;
+  }
+
+  .hp-body .social-link {
+    font-size: 16px;
   }
 
   .video-offset-section, .content-section {
