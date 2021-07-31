@@ -2,7 +2,7 @@
 layout: 2021
 
 # key dates
-date1: June 1
+date1: June 11
 date1desc: Competition Starts. The participants can submit their agents.
 date2: October 15
 date2desc: Submission closes.
