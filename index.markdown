@@ -1,9 +1,9 @@
 ---
 layout: default #change layout to 2021 to see updates
-# layout: 2021
+#layout: 2021
 ---
 
-## Welcome to NetHack 2021 NeurIPS Challenge
+## Welcome to the NetHack Challenge
 
 The NetHack Challenge is a competition at NeurIPS 2021 in which teams will compete to build the best agents to play the game of NetHack, using the NetHack Learning Environment (NLE).
 

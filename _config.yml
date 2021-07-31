@@ -20,6 +20,10 @@ discord_url: "https://discord.gg/zkFWQmSWBA"
 github_url: "https://github.com/facebookresearch/nle"
 AIcrowd_url: "https://www.aicrowd.com/challenges/neurips-2021-nethack-challenge"
 
+include:
+  - "images"
+  - "theme-css"
+
 defaults:
   - scope:
       path: "images"
