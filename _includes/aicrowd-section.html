@@ -1,9 +1,14 @@
 <div class="aicrowd-container container">
     <div class="aicrowd-logo col-md-4">
-        <img class="aicrowd-logo-img" src="{{site.aicrowd_logo | relative_url}}" alt="AIcrowd" />
+        <img class="aicrowd-logo-img" src="{{site.images_uri | relative_url}}AIcrowd_Logo.png" alt="AIcrowd" />
     </div>
     <div class="aicrowd-copy col-md-6">
         Where teams will compete to build the best agents to play the game of NetHack
-        <a class="aicrowd-link" href="{{site.AIcrowd_url | absolute_url}}" target="_blank">Go to Challenge <span class="aicrowd-arrow arrow"><image src={{site.right_light_arrow}} /></span></a>
+        <a class="aicrowd-link" href="{{site.AIcrowd_url | absolute_url}}" target="_blank">
+            Go to Challenge
+            <span class="aicrowd-arrow arrow">
+                <image src="{{site.images_uri | relative_url}}Right-Light.svg" />
+            </span>
+        </a>
     </div>
 </div>

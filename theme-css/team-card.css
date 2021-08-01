@@ -1,6 +1,8 @@
-body .team-section {
-    background: url(/images/Team-Background.svg) no-repeat bottom right #E6F5F0;
+.hp-body .team-section {
+    background-image: url(/images/Team-Background.svg);
+    background-color: #E6F5F0;
     background-position: right 47% bottom 1px;
+    background-repeat: no-repeat;
     background-size: 764px 144px;
     margin-top: -20px;
     padding-bottom: 70px;
@@ -36,7 +38,7 @@ body .team-section {
 }
 
 .card-title, .card-text {
-    font-family: Optimistic Text;
+    font-family: "Optimistic Text";
 }
 
 .hp-body .card-title {
@@ -72,8 +74,7 @@ body .team-section {
         padding: 24px 28px 0 18px;
     }
 
-    body .team-section {
-        background: url(/images/Team-Background.svg) no-repeat bottom right #E6F5F0;
+    .hp-body .team-section {
         background-size: 730px 302px;
     }
 
@@ -96,7 +97,7 @@ body .team-section {
 }
 
 @media(min-width: 1200px) {
-    body .team-section {
+    .hp-body .team-section {
         background-position: bottom -50px right 134px;
     }
 
@@ -106,7 +107,7 @@ body .team-section {
 }
 
 @media(min-width: 1920px) {
-    body .team-section {
+    .hp-body .team-section {
         background-position: bottom -10% right 36%;
     }
 }
