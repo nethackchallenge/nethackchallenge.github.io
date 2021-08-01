@@ -308,7 +308,7 @@ header {
   width: 28px;
 }
 
-.hp-body .footer-link:hover {
+.hp-body .footer-link:hover, .hp-body .footer-link:focus {
   text-decoration: none;
 }
 
