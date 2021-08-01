@@ -208,7 +208,7 @@ header {
   padding-top: 16px;
 }
 
-.hp-body .aicrowd-link:hover {
+.hp-body .aicrowd-link:hover, .hp-body .aicrowd-link:focus {
   color: #E6F5F0;
 }
 
@@ -239,7 +239,7 @@ header {
   padding: 20px 24px;
 }
 
-.hp-body .resources-link:hover {
+.hp-body .resources-link:hover, .hp-body .resources-link:focus {
   color: #232323;
 }
 
