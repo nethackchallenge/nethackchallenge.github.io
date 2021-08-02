@@ -1,0 +1,60 @@
+<div class="container">
+    <div class="resources-title-container resource-dots">
+        <div class="resources-title-column col-md-4">
+            <h2 class="resources-title">RESOURCES</h2>
+        </div>
+        <div class="resource-dots-center-column col-md-4 hidden-xs hidden-sm">
+            <div class="icon-pattern-dots">
+                {% include dots-frag.html %}
+            </div>
+        </div>
+        <div class="resource-dots-last-column col-md-4 hidden-xs hidden-sm">
+            <div class="icon-pattern-dots resource-dots-rotate">
+                {% include dots-frag.html %}
+            </div>
+        </div>
+    </div>
+    <div class="resources-wrapper">
+        <div class="resource col-md-4">
+            <a class="resources-link" href="https://www.youtube.com/watch?v=oYSNXTkeCtw" target="_blank">
+                Youtube Interview
+                <span class="resources-link-icon">
+                    <image src="{{site.images_uri | relative_url}}Right-Dark.svg" />
+                </span>
+            </a>
+        </div>
+        <div class="resource col-md-4">
+            <a class="resources-link" href="https://ai.facebook.com/blog/launching-the-nethack-challenge-at-neurips-2021" target="_blank">
+                Facebook AI Blog
+                <span class="resources-link-icon">
+                    <image src="{{site.images_uri | relative_url}}Right-Dark.svg" />
+                </span>
+            </a>
+        </div>
+        <div class="resource col-md-4">
+            <a class="resources-link" href="https://nethackwiki.com/wiki/Main_Page" target="_blank">
+                NetHack Wiki
+                <span class="resources-link-icon">
+                    <image src="{{site.images_uri | relative_url}}Right-Dark.svg" />
+                </span>
+            </a>
+        </div>
+        <div class="resource-dots-bottom-wrapper">
+            <div class="resource-dots col-md-4">
+                <div class="icon-pattern-dots">
+                    {% include dots-frag.html %}
+                </div>
+            </div>
+            <div class="resource-dots resource-dots-center-column col-md-4 hidden-xs hidden-sm">
+                <div class="icon-pattern-dots resource-dots-rotate">
+                    {% include dots-frag.html %}
+                </div>
+            </div>
+            <div class="resource-dots resource-dots-last-column col-md-4 hidden-xs hidden-sm">
+                <div class="icon-pattern-dots">
+                    {% include dots-frag.html %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

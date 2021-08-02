@@ -1,0 +1,113 @@
+.hp-body .team-section {
+    background-image: url(/images/Team-Background.svg);
+    background-color: #E6F5F0;
+    background-position: right 47% bottom 1px;
+    background-repeat: no-repeat;
+    background-size: 764px 144px;
+    margin-top: -20px;
+    padding-bottom: 70px;
+}
+
+.hp-body .team-title {
+    color: #465A69;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 4px;
+    padding: 44px 0 36px 18px;
+}
+
+.card {
+    background-color: #232323;
+    border-radius: 15px;
+    display: flex;
+    height: 148px;
+    position: relative;
+    margin-bottom: 34px;
+    z-index: 1;
+}
+
+.card-image {
+    height: 58px;
+    margin: 26px 0 26px 29px;
+    max-width: 58px;
+}
+
+.card-body {
+    display: inline-block;
+    padding: 26px 0 0 12px;
+}
+
+.card-title, .card-text {
+    font-family: "Optimistic Text";
+}
+
+.hp-body .card-title {
+    color: #FFDE89;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.team-background {
+    bottom: 71%;
+    left: 43%;
+    position: fixed;
+    top: 64%;
+    z-index: 0;
+}
+
+.card-text {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+@media(min-width: 992px) {
+    .card {
+        margin-right: 44px;
+        width: 325px;
+    }
+
+    .card-body {
+        padding: 24px 28px 0 18px;
+    }
+
+    .hp-body .team-section {
+        background-size: 730px 302px;
+    }
+
+    .hp-body .team-title {
+        color: #465A69;
+        font-size: 28px;
+        letter-spacing: 4px;
+        padding: 64px 0 54px 15px;
+    }
+
+    .hp-body .card-title {
+        font-size: 18px;
+    }
+
+    .card-image {
+        height: 70px;
+        max-width: 70px;
+        margin: 12px 0 2px 22px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .hp-body .team-section {
+        background-position: bottom -50px right 134px;
+    }
+
+    .card {
+        max-width: 382px;
+    }
+}
+
+@media(min-width: 1920px) {
+    .hp-body .team-section {
+        background-position: bottom -10% right 36%;
+    }
+}

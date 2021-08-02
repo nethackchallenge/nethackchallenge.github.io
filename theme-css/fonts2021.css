@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Optimistic Text';
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/Optimistic_Text_W_Rg.eot");
+    src: url("../fonts/Optimistic_Text_W_Rg.eot?#iefix") format("embedded-opentype"), local("Optimistic Text"), local("Optimistic_Text_W_Rg"), url("../fonts/Optimistic_Text_W_Rg.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Optimistic Text';
+    font-weight: 700;
+    font-style: normal;
+    src: url("../fonts/Optimistic_Text_W_Bd.eot");
+    src: url("../fonts/Optimistic_Text_W_Bd.eot?#iefix") format("embedded-opentype"), local("Optimistic Text"), local("Optimistic_Text_W_Bd"), url("../fonts/Optimistic_Text_W_Bd.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Optimistic Text';
+    font-weight: 400;
+    font-style: italic;
+    src: url("../fonts/Optimistic_Text_W_Lt.eot");
+    src: url("../fonts/Optimistic_Text_W_Lt.eot?#iefix") format("embedded-opentype"), local("Optimistic Text"), local("Optimistic_Text_W_Lt"), url("../fonts/Optimistic_Text_W_Lt.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Optimistic Display';
+    font-weight: 400;
+    font-style: italic;
+    src: url("../fonts/Optimistic_Display_W_Md.eot");
+    src: url("../fonts/Optimistic_Display_W_Md.eot?#iefix") format("embedded-opentype"), local("Optimistic Display"), local("Optimistic_Display_W_Md"), url("../fonts/Optimistic_Display_W_Md.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Optimistic Display';
+    font-weight: 400;
+    font-style: italic;
+    src: url("../fonts/Optimistic_Display_W_Lt.eot");
+    src: url("../fonts/Optimistic_Display_W_Lt.eot?#iefix") format("embedded-opentype"), local("Optimistic Display"), local("Optimistic_Display_W_Lt"), url("../fonts/Optimistic_Display_W_Lt.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Optimistic Display';
+    font-weight: 700;
+    font-style: italic;
+    src: url("../fonts/Optimistic_Display_W_Bd.eot");
+    src: url("../fonts/Optimistic_Display_W_Bd.eot?#iefix") format("embedded-opentype"), local("Optimistic Display"), local("Optimistic_Display_W_Bd"), url("../fonts/Optimistic_Display_W_Bd.woff") format("woff");
+}
