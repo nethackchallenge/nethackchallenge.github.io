@@ -56,5 +56,5 @@ The competition runs from early June through October 15, and the winners will be
 
 We'd like to thank our sponsors for their contributions to the NetHack Challenge:
 
-* <b>*Facebook AI Research*</b>
-* <b>*DeepMind*</b>
+* <b>Facebook AI Research</b>
+* <b>DeepMind</b>
