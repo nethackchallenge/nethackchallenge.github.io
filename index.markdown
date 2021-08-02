@@ -33,15 +33,21 @@ We are excited that this competition offers machine learning students, researche
 
 
 ## Participation Information:
-There will be three competition tracks:
+There will be four competition tracks:
 <div style="color: #199696; font-size: 22px; font-weight: 400;">1. Best overall agent</div>
-$5000 awarded to the best-performing agent in the competition. All submitted agents qualify for this track.
+Winner: $3000, Runner up: $2000 — Awarded to the best-performing agent in the competition. All submitted agents qualify for this track.
 
-<div style="color: #199696; font-size: 22px; font-weight: 400;">2. Best agent not using a neural network</div>
-$5000 awarded to the best-performing agent not using a neural network or significantly similar modeling technique.
+<div style="color: #199696; font-size: 22px; font-weight: 400;">2. Best agent substantially using a neural network</div>
+Winner: $3000, Runner up: $2000 — Awarded to the best-performing agent making substantial use of a neural network or significantly similar modeling technique.
 
-<div style="color: #199696; font-size: 22px; font-weight: 400;">3. Best agent from an academic/independent team</div>
-$5000 awarded to the best-performing agent produced by a team predominantly led by non-industry-affiliated researchers.
+<div style="color: #199696; font-size: 22px; font-weight: 400;">3. Best agent not using a neural network</div>
+Winner: $3000, Runner up: $2000 — Awarded to the best-performing agent not using a neural network or significantly similar modeling technique.
+
+<div style="color: #199696; font-size: 22px; font-weight: 400;">4. Best agent from an academic/independent team</div>
+Winner: $3000, Runner up: $2000 — Awarded to the best-performing agent produced by a team predominantly led by non-industry-affiliated researchers.
+
+Competitors can be eligible for multiple tracks and the prizes associated with them.
 
 
 The competition runs from early June through October 15, and the winners will be announced at NeurIPS in December. For more information, checkout out the [Challenge Page](https://www.aicrowd.com/challenges/neurips-2021-nethack-challenge){:target="_blank"}, read our blog [here](https://ai.facebook.com/blog/launching-the-nethack-challenge-at-neurips-2021){:target="_blank"}. You can also follow us on [Twitter](https://twitter.com/NetHack_LE){:target="_blank"}, join our [Discord server](https://discord.gg/zkFWQmSWBA){:target="_blank"}, or get acquainted with the [NetHack Learning Environment](https://github.com/facebookresearch/nle){:target="_blank"}.
+
