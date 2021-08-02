@@ -51,3 +51,11 @@ Competitors can be eligible for multiple tracks and the prizes associated with t
 
 The competition runs from early June through October 15, and the winners will be announced at NeurIPS in December. For more information, checkout out the [Challenge Page](https://www.aicrowd.com/challenges/neurips-2021-nethack-challenge){:target="_blank"}, read our blog [here](https://ai.facebook.com/blog/launching-the-nethack-challenge-at-neurips-2021){:target="_blank"}. You can also follow us on [Twitter](https://twitter.com/NetHack_LE){:target="_blank"}, join our [Discord server](https://discord.gg/zkFWQmSWBA){:target="_blank"}, or get acquainted with the [NetHack Learning Environment](https://github.com/facebookresearch/nle){:target="_blank"}.
 
+
+## Sponsors
+
+We'd like to thank our sponsors for their contributions to the NetHack Challenge:
+
+* <b>*Facebook AI Research*</b>
+* <b>*DeepMind*</b>
+
