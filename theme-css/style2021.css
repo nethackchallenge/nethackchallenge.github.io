@@ -51,6 +51,7 @@ header {
   display: block;
   margin: 24px 24px 24px 0;
   max-width: 333px;
+  -webkit-transform:translate3d(0,0,0);
 }
 
 .header-wrapper .header-description {
@@ -134,7 +135,7 @@ header {
   font-size: 14px;
   letter-spacing: 3px;
   margin-bottom: 36px;
-  max-width: 175px;
+  max-width: 212px;
 }
 
 .hp-body .social-link:hover {
@@ -147,6 +148,10 @@ header {
 
 .social-icon {
   margin-right: 16px;
+}
+
+.social-outbound-icon {
+  margin: 0 0 2px 8px;
 }
 
 .social-icon.paper {
