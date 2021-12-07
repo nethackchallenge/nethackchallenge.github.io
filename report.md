@@ -1,24 +1,16 @@
 ---
-layout: 2021
-
-# key dates
-date1: June 9
-date1desc: Competition Starts. The participants can submit their agents.
-date2: October 15
-date2desc: Submission closes.
-date3: December 13/14
-date3desc: NeurIPS 2021 Competition Track. The winners are announced.
+layout: report_layout
 ---
 
-
-### 9/12/21 - [Competition Results Are Now Live!](./report.html)
-
-The NetHack Challenge is a competition at NeurIPS 2021 in which teams will compete to build the best agents to play the game of NetHack, using the NetHack Learning Environment (NLE).
+At the start of June, we [announced the NetHack Challenge 2021](https://ai.facebook.com/blog/launching-the-nethack-challenge-at-neurips-2021/), hosted at NeurIPS 2021, as a partnership between Facebook (now Meta) AI Research, AI Crowd, Oxford, UCL, and NYU. We furthermore were supported by our sponsors, Facebook AI (now Meta AI), and DeepMind. [In this challenge](https://www.aicrowd.com/challenges/neurips-2021-the-nethack-challenge), we set out the goal to beat NetHack using any method you want (within the bounds of compute/time restrictions at test time) or—failing that—get as high an in-game score as possible. The competition has ended, and in this post, we will present and discuss the results, having first briefly recapped why this challenge matters for AI research, and what the rules and stakes were.
 
 
-## What is NetHack?
+## Why we organized NetHack Challenge
+Write about NLE and why it’s important for RL (and AI) research
+Discuss motivations for competition, perhaps hint at people’s expectations (Deep RL wins the day)
 
-NetHack is a ASCII-rendered single-player dungeon crawl game that is one of the oldest and most difficult computer games in history.  NetHack is procedurally-generated, with hundreds of different entities and complex environment dynamics, presenting an extremely challenging environment for both current state-of-the-art RL agents and humans, while crucially being lightning-fast to simulate.
+NetHack (originally released in 1987 but still actively developed) is one of the oldest and most popular rogue-like games as well as one of the hardest video games in existence. At NeurIPS 2020, researchers Facebook AI Research, UCL, NYU, and Oxford presented the NetHack Learning Environment (NLE) as a fast but complex RL environment based on NetHack, together with a baseline RL agent based on TorchBeast. However, our baseline agent is still many orders of magnitude away from expert human performance on NetHack. As a new frontier for RL research, there’s so much room for improvement on NLE that we felt we need the whole community to come together to make progress. So we organized the NeurIPS 2021 NetHack Competition Challenge. One of our goals was to see just how creative people can get without restrictions in training and agent design--and in doing so, move the classic symbolic AI vs deep learning debate forward. Deep learning techniques have won many battles recently, but will they win at the quest for NetHack’s coveted Amulet of Yendor?
+
 
 Check out the [NetHack Wiki](https://nethackwiki.com/wiki/Main_Page){:target="_blank"} and [nethack.org](http://nethack.org/){:target="_blank"} to learn more about NetHack, or head over to the [Challenge Page](https://www.aicrowd.com/challenges/neurips-2021-nethack-challenge){:target="_blank"} for an intro.
 
