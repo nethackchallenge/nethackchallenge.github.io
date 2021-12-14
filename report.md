@@ -73,6 +73,11 @@ While our best symbolic teams had moderate-to-expert NetHack domain understandin
 
 ## What does it all mean for AI?
 
+> "Despite the game of NetHack being far from solved by these agents, seeing them descend over 20 levels deep into the dungeons of NetHack to achieve scores of over 100,000 points is very encouraging!  Past versions of NetHack have a rich history of symbolic-agent-type bots, so the methods of machine learning may have some catching up to do in this specific realm of playing NetHack, but I am optimistic for the future of both methods after seeing the results of the challenge.  It has been amazing to see a game that I cherish so dearly be used to make new advancements in machine learning and artificial intelligence, and I look forward to seeing how teams improve in next year's challenge!"
+
+> -- [ToneHack](https://tonehack.net/about/)
+
+
 #### NetHack is far from solved. 
 First of all the results show that NetHack is still a tremendously hard challenge for AI agents, whether they are symbolic bots or deep reinforcement learning agents. The top median score of ~5,000 is several orders of magnitude short of typical human ascensions, and while some bots managed to achieve much higher scores in a few limited runs, most runs did not descend very deep into the dungeons of NetHack and instead stayed within early stages of the game.
 
@@ -96,7 +101,7 @@ While the Challenge has demonstrated significant community-driven progress with 
 
 We believe this challenge marks the beginning of an exciting series of competitions: the game remains unsolved, and it is to be seen whether symbolic bots will be able to scale to the point of reliably beating the game. Future challenges will need to focus on refining evaluation metrics, such that the ranking of agents better reflects progress in the game. As alluded to above, future challenges may also seek to proactively encourage teams to exploit external knowledge such as the NetHack Wiki, or recordings of human play.
 
-In the meantime, check out The NetHack Learning Environment and MiniHack on GitHub if you want to start training your own deep Reinforcement Learning agents in NetHack. We hope you enjoyed the challenge! 
+In the meantime, check out [The NetHack Learning Environment](https://github.com/facebookresearch/nle) and [MiniHack](https://github.com/facebookresearch/minihack) on GitHub if you want to start training your own deep Reinforcement Learning agents in NetHack. We hope you enjoyed the challenge! 
 
 ### Sponsors
 We thank Meta AI and DeepMind for sponsoring this challenge, and for their support.
