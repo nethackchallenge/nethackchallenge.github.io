@@ -69,7 +69,7 @@ The margin of victory was significant, with the top symbolic agent beating the t
 
 While our best symbolic teams had moderate-to-expert NetHack domain understanding, we were surprised to find they often had extensive ML experience as well. In fact, both winning symbolic teams said they had intended to enter the neural track, but found their symbolic methods scaled much better.
 
-
+In over half a million evaluation games, no bot managed to ascend. 
 
 ## What does it all mean for AI?
 
