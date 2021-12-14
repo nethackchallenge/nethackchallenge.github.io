@@ -82,7 +82,7 @@ header {
   width: auto;
 }
 
-.social-section, .video-offset-section, .content-section, .key-dates-section, .aicrowd-section, .resources-section {
+.social-section, .report-social-section, .video-offset-section, .content-section, .key-dates-section, .aicrowd-section, .resources-section {
   border: 0;
   float: none;
   margin: 0 0 20px;
@@ -354,7 +354,7 @@ header {
     font-size: 26px;
   }
 
-  .social-section, .video-offset-section {
+  .social-section, .report-social-section, .video-offset-section {
     margin: 0;
     padding: 0 0 0 24px;
   }
@@ -495,7 +495,7 @@ header {
     padding-top: 400px;
     width: 1170px;
   }
-
+  
   .social-section-box {
     top: -350px;
   }
@@ -503,4 +503,17 @@ header {
   .footer-icon-container {
     width: 75%;
   }
+
+  .report-body-wrapper {
+    padding-top: 40px;
+    width: 1170px;
+    padding-bottom: 40px;
+
+  }
+  .report-social-section {
+    top: 360px;
+  }
+
 }
+
+

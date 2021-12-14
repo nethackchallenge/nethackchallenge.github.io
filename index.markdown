@@ -10,6 +10,9 @@ date3: December 13/14
 date3desc: NeurIPS 2021 Competition Track. The winners are announced.
 ---
 
+
+### 9/12/21 - [Competition Results Are Now Live!](./report.html)
+
 The NetHack Challenge is a competition at NeurIPS 2021 in which teams will compete to build the best agents to play the game of NetHack, using the NetHack Learning Environment (NLE).
 
 

@@ -1,0 +1,20 @@
+<header>
+    <div class="header-wrapper container">
+        <div class="header-logo-wrapper col-xs-12 col-md-4">
+            {% if site.logo %}
+            <a class="header-logo-link" href="{{ '/' | absolute_url }}">
+                <img alt="Logo" class="header-logo" src="{{site.logo | relative_url}}" />
+            </a>
+            {% endif %}
+        </div>
+
+        <div class="header-description col-xs-12 col-md-8">
+            <h1 class="header-title">
+                The NetHack Challenge:<br/>Dungeons, Dragons, and Tourists
+            </h1>
+            <div class="sub-header-description">
+                NeurIPS 2021 Report
+            </div>
+        </div>
+    </div>
+</header>
