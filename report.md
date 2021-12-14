@@ -105,4 +105,5 @@ In the meantime, check out [The NetHack Learning Environment](https://github.com
 
 ### Sponsors
 We thank Meta AI and DeepMind for sponsoring this challenge, and for their support.
+
 ![](./images/sponsors.png)
